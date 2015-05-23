@@ -2,7 +2,7 @@ library(data.table)
 library(plyr)
 
 #Read the data
-featuresNames <- read.table("./UCI HAR Dataset/features.txt")
+featureNames <- read.table("./UCI HAR Dataset/features.txt")
 activityLabels <- read.table("./UCI HAR Dataset/activity_labels.txt", header = FALSE, na.strings="NA")
 subjectTrain <- read.table("./UCI HAR Dataset/train/subject_train.txt", header = FALSE, na.strings="NA")
 yTrain <- read.table("./UCI HAR Dataset/train/y_train.txt", header = FALSE, na.strings="NA")
